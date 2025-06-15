@@ -124,7 +124,6 @@ public class StepDefination {
 		for (int i = 0; i < productName.size(); i++) {
 			ExtentCucumberAdapter.addTestStepLog(productName.get(i));
 		}
-
 	}
 
 	@Given("an item to be created with specification {string},{string} and {string}")
